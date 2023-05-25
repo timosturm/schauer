@@ -1,19 +1,30 @@
 # schauer
 
-A weather app using the open api from DWD.
+A weather app using some open api.
 
-Things I would like to display:
-- Location
-- Current Temperature
-- Weather Conditions
-- Weather Icons
-- High and Low Temperatures
-- Wind Speed and Direction
-- Humidity
-- Precipitation
-- Sunrise and Sunset Times
-- Forecast
-- Additional Details
-- 7 day forecast of
-    - temperature
-    - precipitation
+## Planned features:
+- weather based on location
+- current conditions:
+    - temperature (high, low, current)
+    - humidity
+    - precipitation next x hours
+        - probability and actual values
+    - visibility (fog)
+    - warnings (?)
+    - windspeed + direction
+    - Sunrise and Sunset Times
+- short and longtime forecasts, e.g., day, 7 days
+- historic comparison
+
+## APIs:
+- https://app.tomorrow.io/signup?planid=60d46beae90c3b3549a59ff3
+- https://api.met.no/weatherapi/locationforecast/2.0/documentation
+- https://dwd.api.bund.dev/ / https://opendata.dwd.de/ / https://github.com/bundesAPI/dwd-api
+
+
+## "Technologies":
+- Pattern: https://pub.dev/packages/flutter_bloc
+- Networking: https://pub.dev/packages/dio
+- Plotting: https://pub.dev/packages/syncfusion_flutter_charts
+- Inspiration: https://chat.openai.com/
+- Blockchain & some shady crypto coin 
