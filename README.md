@@ -17,6 +17,8 @@ A weather app using some open api.
 - historic comparison
 
 ## APIs:
+- :star: https://github.com/open-meteo/open-meteo
+- :star: https://github.com/jdemaeyer/brightsky/
 - https://app.tomorrow.io/signup?planid=60d46beae90c3b3549a59ff3
 - https://api.met.no/weatherapi/locationforecast/2.0/documentation
 - https://dwd.api.bund.dev/ / https://opendata.dwd.de/ / https://github.com/bundesAPI/dwd-api
