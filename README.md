@@ -22,6 +22,9 @@ A weather app using some open api.
 - https://dwd.api.bund.dev/ / https://opendata.dwd.de/ / https://github.com/bundesAPI/dwd-api
 - https://www.msn.com/en-us/weather/us/data-providers/ar-BB1DRk?cvid=9d5df8ccf3194a4ca0dbfac037f49049&ei=15, e.g., https://www.ecmwf.int/en/computing/software/ecmwf-web-api
 
+### "rainradar":
+- https://www.rainviewer.com/api.html
+
 
 ## "Technologies":
 - Pattern: https://pub.dev/packages/flutter_bloc
